@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="CssEx7.css">
+</head>
+<body>
+  <fieldset class="couleur1">
+    <legend class="couleur1">Votre idendité</legend>
+    <ol>
+    <li>  <label for="nom">Nom</label>
+      <input id="nom" placeholder="Nom" autofocus="" required=""></li><br>
+    <li>  <label for="prenom">Prénom</label>
+      <input id="nom" placeholder="Prénom" autofocus="" required=""></li><br>
+    <li>  <label for="email">Adresse mail</label>
+      <input id="email" type="email" placeholder="Adresse mail" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"></li><br>
+</ol>
+  </fieldset>
+  <fieldset class="couleur2">
+    <legend class="couleur2">Adresse de livraison</legend>
+    <ol>
+      <li><label for="comments">Adresse</label>
+      <textarea id="comments"></textarea></li>
+      <li>  <label for="codepostal">Code Postal</label>
+        <input id="codepostal" placeholder="Code Postal" autofocus="" required=""></li><br>
+        <li>  <label for="ville">Ville</label>
+          <input id="ville" placeholder="Ville" autofocus="" required=""></li><br>
+</ol>
+  </fieldset>
+
+  <fieldset class="couleur3">
+    <legend class="couleur3">Informations de réglement</legend>
+    <ol>
+    <li>  <label for="typedecartebancaire">Type de carte bancaire :</label><br>
+    <label for="Visa"><input id="Visa" type="radio" name="binet" value="visa"> Visa</label><br>
+    <label for="Mastercard"><input id="Mastercard" type="radio" name="binet" value="Mastercard"> Mastercard</label></li><br>
+    <li>  <label for="numerodecarte">Numéro de carte :</label>
+      <input id="numerodecarte" placeholder="Numéro de carte" autofocus="" required=""></li><br>
+      <li>  <label for="codesecurite">Code de sécurité :</label>
+        <input id="codesecurite" placeholder="Code de sécutié" autofocus="" required=""></li><br>
+        <li>  <label for="nomdutitulaire">Nom du titulaire :</label>
+          <input id="nomdutitulaire" placeholder="Nom du titulaire" autofocus="" required=""></li><br>
+</ol>
+  </fieldset>
+  <p><input type="submit" value="J'achète !"></p>
+</body>
+</html>
